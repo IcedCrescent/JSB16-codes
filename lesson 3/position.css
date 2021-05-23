@@ -1,0 +1,23 @@
+
+.main {
+    /* position: static; */
+    /* position: relative; */
+    /* position: absolute; */
+    /* position: fixed; */
+    position: sticky;
+    top: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.sibling {
+    padding: 10px;
+    background-color: #979797;
+}
+
+.parent {
+    position: relative;
+    height: 800px;
+    padding: 10px;
+    background-color: #81adc8;
+}

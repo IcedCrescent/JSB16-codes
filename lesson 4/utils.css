@@ -1,0 +1,27 @@
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wrap-text {
+    overflow: auto !important;
+    white-space: normal !important;
+}
+
+.m-8 {
+    margin: 8px;
+}
+.mt-8 {
+    margin-top: 8px;
+}
+
+.m-16{
+    margin: 16px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}

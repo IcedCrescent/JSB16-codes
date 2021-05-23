@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: rgb(0, 255, 0);
+    background-color: #E52F12;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+/* h3{
+    background-color: orange;
+}
+p {
+    background-color: orange;
+} */
+
+.orange-background {
+    background-color: orange;
+    font-size: 20px;
+}
+
+.cursive {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#id-1 {
+    color: green;
+}

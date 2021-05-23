@@ -1,0 +1,82 @@
+/* Reset CSS */
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Toàn trang */
+.container {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Phần bên trái */
+.left {
+    width: 30%;
+    min-width: 200px;
+    max-width: 300px;
+    background-color: cadetblue;
+    color: white;
+}
+
+.left h1 {
+    font-family: 'Recursive', sans-serif;
+}
+
+.left p {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 95%;
+    text-overflow: ellipsis;
+}
+.left a {
+    color: white;
+    text-decoration: none;
+}
+
+.avatar {
+    margin: 20px auto;
+    width: 80%;
+    height: 0;
+    padding-top: 80%;
+    position: relative;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Phần bên phải */
+.right {
+    flex: 1 1 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://unsplash.com/photos/uWFFw7leQNI/download?force=true&w=1920');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-half {
+    width: 45%;
+}
