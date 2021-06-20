@@ -21,6 +21,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 #player .img-container {
